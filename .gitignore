@@ -1,0 +1,71 @@
+# Virtual Env #
+###################
+py3_env/
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+#*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.log.[1-9]*
+*.sqlite
+*.sqlite3
+
+# OS generated files #
+######################
+.DS_Store
+ehthumbs.db
+Icon
+Thumbs.db
+.tmtags
+.idea
+tags
+vendor.tags
+tmtagsHistory
+*.sublime-project
+*.sublime-workspace
+.bundle
+
+# Local Settings
+/settings.py
+.python-version
+
+# postgreSQL
+postgres_data/*
+redis_data
+docker_data/*_data
+
+word_embedding/embedding/dictionary
+word_embedding/embedding/embedding
+
+*~*.xlsx
+rest_api/bootstrap_data/tags.json
+staticfiles/
+media/
+bootstrap_data/embedding
+bootstrap_data/Inc_model
+
+deploy/chart/cmb-article-generator/charts/*
+
+docs_input/samples/~.*
+article_generator/static/*
